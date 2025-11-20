@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Form</title>
+</head>
+<body>
+    <h2>Attendance System</h2>
+
+    <form action="/submit" method="POST">
+
+        <label>Employee ID:</label>
+        <input type="text" name="employeeID" required><br><br>
+
+        <label>Date:</label>
+        <input type="date" name="date" required><br><br>
+
+        <label>Attendance:</label>
+        <select name="attendance" required>
+            <option value="Present">Present</option>
+            <option value="Absent">Absent</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
