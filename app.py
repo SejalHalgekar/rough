@@ -6,7 +6,7 @@ app = Flask(__name__)
 # ----------------------------
 # MONGODB CONNECTION
 # ----------------------------
-client = MongoClient("mongodb+srv://sejal:sejal2315@cluster0.15kige5.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://02fe23bcs192_db_user:nkrTxp4yv0TWq107@cluster0.u1pzuoc.mongodb.net/?appName=Cluster0")
 
 db = client["attendanceDB"]       # database name
 collection = db["records"]        # collection name
